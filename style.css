@@ -9,4 +9,68 @@ body {
   line-height: 1.5;
   height: 100vh;
   background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+section.counter {
+  width: 30rem;
+  background: rgb(73, 0, 190);
+  text-align: center;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: .5rem;
+}
+
+.counter__title {
+  width: 100%;
+}
+
+.counter__value {
+  font-size: 5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border: none;
+  padding: .5rem;
+  border-radius: .5rem;
+  color: #fff;
+  text-shadow: 
+  1px 1px 3px #111;
+  cursor: pointer;
+  min-width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  opacity: .9;
+}
+
+i {
+  margin-right: .2rem;
+}
+
+.btn:first-of-type {
+  background: rgb(255, 60, 0);
+}
+
+.btn:nth-of-type(2) {
+  background: rgb(236, 236, 236);
+}
+
+.btn:last-of-type {
+  background: rgb(0, 255, 13);
 }
