@@ -59,8 +59,13 @@ section.counter {
   opacity: .9;
 }
 
+.btn span {
+  pointer-events: none;
+}
+
 i {
   margin-right: .2rem;
+  pointer-events: none;
 }
 
 .btn:first-of-type {
